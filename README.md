@@ -16,15 +16,15 @@ The page should be built something like this:
 
 ### The "Easter Egg Hunt" view
 
-:hatching_chick: The hunt view should have at least 20 clickable things on it.
-:hatching_chick: When clicking a thing, it should either reveal an egg, or nothing.
-:hatching_chick: There should be at least 12 eggs hidden.
+:hatching_chick: The hunt view should have at least 20 clickable things on it.<br />
+:hatching_chick: When clicking a thing, it should either reveal an egg, or nothing.<br />
+:hatching_chick: There should be at least 12 eggs hidden.<br />
 :hatching_chick: Once revealed, if the visitor clicked on a egg, it should lead to a gift page with some of the material Record Union has provided.
 
 ### Gifts
 
-:gift: A gift view should be about an artist, or the Record Union office dog. Record Union will provide pictures and media for this!
-:gift: Try to make the pages stand out from each other a little bit; whether its a different design, or just a different color scheme.
+:gift: A gift view should be about an artist, or the Record Union office dog.<br />
+:gift: Try to make the pages stand out from each other a little bit; whether its a different design, or different colors.
 
 ## How to approach this as a team
 
