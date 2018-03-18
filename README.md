@@ -10,7 +10,7 @@ The idea of this project is to create a page which tries to re-create the fun of
 
 You should aim to build a page which a number of clickable pictures or links. Clicking on one of these should reveal whether there's an egg hidden there, or not. So some of the links should do nothing, while some should lead to presents and goodies!
 
-Since it's impossible to hand out candy through websites (for now. We can only keep hoping for this to change!), we need to find creative ways to give other gifts hidden in eggs. Since we have Record Union helping this spring, they're going to help out by giving you some awesome things to show as gifts. From music and facts about their artists, to pictures of their awesome dog XX :dog:
+Since it's impossible to hand out candy through websites (for now. We can only keep hoping for this to change!), we need to find creative ways to give other gifts hidden in eggs. Since we have Record Union helping this spring, they're going to help out by giving you some awesome things to show as gifts. From music and facts about their artists, to pictures of their awesome dog Hefner :dog:
 
 The page should be built something like this:
 
