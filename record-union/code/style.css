@@ -20,6 +20,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@font-face {
+font-family: sofia-pro;
+src: url(../sofiapro-light.otf);
+}
+
 a {
 	border-bottom: 1px solid #00197c;
   padding-bottom: 2px;
@@ -28,7 +33,7 @@ a {
 
 a, p {
 	color: #00187d;
-  font-family: sans-serif;
+  font-family: sofia-pro, sans-serif;
 }
 
 button {
