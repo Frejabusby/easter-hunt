@@ -12,17 +12,18 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	margin: 0;
+	padding: 0;
 	vertical-align: baseline;
 }
 
 @font-face {
-font-family: sofia-pro;
-src: url(../sofiapro-light.otf);
+	font-family: sofia-pro;
+	src: url(../sofiapro-light.otf);
 }
 
 a {
@@ -45,9 +46,9 @@ button {
 
 button a {
 	border: none;
-	text-decoration: none;
 	font-weight: 600;
 	font-size: 16px;
+	text-decoration: none;
 }
 
 h1 {
@@ -62,14 +63,14 @@ h1, h5 {
 }
 
 h5 {
-	font-size: 20px;
 	color: #40404c;
+	font-size: 20px;
 }
 
 .header-menu {
+	align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .header-menu p {
@@ -92,7 +93,26 @@ h5 {
 }
 
 .top-artist-img {
-	width: 100%;
-  object-fit: cover;
   height: 300px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.band-members {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.band-members-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.band-members img{
+	border-radius: 150px;
+	height: 20%;
+	margin: 10px 10px 10px 10px;
+	width: 20%;
 }
