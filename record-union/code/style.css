@@ -94,9 +94,13 @@ button a {
 	width: 60%;
 }
 
+.row {
+	margin: 0px 50px;
+}
+
 .artist-name {
 	background-color: #aa61ff;
-	margin-top: 30px;
+	margin: 30px 0px 0px 0px;
   padding: 20px;
 }
 
@@ -105,9 +109,8 @@ button a {
 	object-fit: cover;
 	width: 100%;
 }
-
-.artist-info {
-	padding: 50px;
+.artist-info	{
+	margin-top: 50px;
 }
 
 .artist-info h5 {
@@ -132,4 +135,19 @@ button a {
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 7px;
+}
+
+.top-track-section	{
+	margin-top: 50px;
+}
+
+.top-track-container	{
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.top-track-container img	{
+	width: 30%;
+	height: 30%;
 }
