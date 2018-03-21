@@ -9,21 +9,37 @@
 
 body {
 	background-color:pink;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
+
 h1, h2 {
   font-family: sofia-pro;
+  display: inline-block;
 }
 
 h1 {
 	color: #aa61ff;
-  font-size: 40px;
+  font-size: 80px;
 	font-weight: 600;
+  margin:10px;
 }
 
 h2 {
   color: #aa61ff;
-  font-size:20px;
+  font-size:60px;
+  margin:5px;
+}
+
+header {
+  justify-content: center;
+  display: flex;
+  height: auto;
+  object-fit: scale-down;
+  margin-top: 50px;
+}
+
+.gift-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin:100px;
 }
