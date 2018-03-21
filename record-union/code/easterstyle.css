@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: sofia-pro;
+	src: url(../sofiapro-light.otf);
+}
+
+body {
+	background-color:pink;
+}
+
+h1, h2 {
+  font-family: sofia-pro;
+  display: inline-block;
+}
+
+h1 {
+	color: #aa61ff;
+  font-size: 80px;
+	font-weight: 600;
+  margin:10px;
+}
+
+h2 {
+  color: #aa61ff;
+  font-size:60px;
+  margin:5px;
+}
+
+header {
+  justify-content: center;
+  display: flex;
+  height: auto;
+  object-fit: scale-down;
+  margin-top: 50px;
+}
+
+.gift-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin:100px;
+}
