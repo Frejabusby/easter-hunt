@@ -98,10 +98,8 @@ h5 {
 	width: 100%;
 }
 
-.band-members {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+.band-members h5 {
+  text-align: center;
 }
 
 .band-members-img {
