@@ -29,17 +29,21 @@ h2 {
   margin:5px;
 }
 
-header {
-  justify-content: center;
+header {  
   display: flex;
   height: auto;
-  object-fit: scale-down;
+  justify-content: center;
   margin-top: 50px;
+  width: 100%;
+}
+
+.ru-logo  {
+  object-fit: scale-down;
 }
 
 .gift-container {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin:100px;
 }
