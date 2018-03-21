@@ -29,7 +29,7 @@ h2 {
   margin:5px;
 }
 
-header {  
+header {
   display: flex;
   height: auto;
   justify-content: center;
@@ -38,12 +38,20 @@ header {
 }
 
 .ru-logo  {
-  object-fit: scale-down;
+  object-fit: cover;
+  width: 70%;
+  height: 100%;
 }
 
 .gift-container {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin:100px;
+  margin: 50px;
+}
+
+@media (min-width: 900px) {
+  .gift-container {
+    margin: 100px;
+  }
 }
