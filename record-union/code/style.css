@@ -93,14 +93,22 @@ button a {
 }
 
 .header-menu {
+	background-color: #40404c;
 	align-items: center;
   display: flex;
   flex-direction: column;
+	padding: 30px 0px;
 }
 
 .header-menu p {
+	color: #fff;
   display: inline-block;
 	margin: 0px 10px;
+}
+
+.header-menu a:not(:last-child) {
+  color: #fff;
+	border-color: #fff;
 }
 
 .ru-logo {
@@ -108,7 +116,7 @@ button a {
   height: auto;
 	margin: 20px 10px 30px 10px;
   object-fit: scale-down;
-	width: 60%;
+	width: 50%;
 }
 
 .row {
@@ -117,8 +125,9 @@ button a {
 
 .artist-name {
 	background-color: #aa61ff;
-	margin: 30px 0px 0px 0px;
-  padding: 20px;
+	margin: 0;
+  padding: 50px;
+	width: 100%;
 }
 
 .top-artist-img {
@@ -156,7 +165,7 @@ button a {
 	margin-bottom: 7px;
 }
 
-.top-track-section {
+.top-track-section, .release-section {
 	margin-top: 50px;
 }
 
@@ -216,4 +225,51 @@ button a {
 
 .ru-sign-up button {
 	margin-top: 15px;
+}
+
+@media (min-width: 900px) {
+  body {
+	  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+	.header-menu {
+		justify-content: space-between;
+		flex-direction: row;
+    top: 0;
+		padding: 0px 50px;
+		position: fixed;
+		width: 100%;
+	}
+
+	.ru-logo {
+		width: 15%;
+	}
+
+	.artist-name {
+		margin: 0;
+		padding: 150px 50px 50px 50px;
+	}
+
+	.top-artist-img img {
+    height: 100%;
+		width: 25%;
+	}
+
+	.band-members {
+		justify-content: flex-start;
+	}
+
+	.band-members img {
+		width: calc(15% - 20px);
+	}
+
+	.top-track-section, .release-section  {
+    width: calc(50% - 100px);
+	}
+
+	.releases-container img {
+		width: calc(33% - 20px)
+	}
 }
