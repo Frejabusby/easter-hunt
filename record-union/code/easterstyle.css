@@ -11,7 +11,7 @@ body {
 	background-color:pink;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: sofia-pro;
   display: inline-block;
 }
@@ -26,6 +26,12 @@ h1 {
 h2 {
   color: #aa61ff;
   font-size:60px;
+  margin:5px;
+}
+
+h3 {
+  color: #aa61ff;
+  font-size:40px;
   margin:5px;
 }
 
@@ -48,6 +54,11 @@ header {
   display: flex;
   flex-direction: column;
   margin: 50px;
+}
+
+
+#hef {
+  margin-top: 50px;
 }
 
 @media (min-width: 900px) {
