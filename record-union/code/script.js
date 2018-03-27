@@ -19,9 +19,8 @@ const shuffle = (a) => {
 }
 
 const random = (a) => {
-  const xx = shuffle(numbers)
-  console.log(xx)
-  xx.slice(0, 11).forEach((num) => {
+  const randomNumber = shuffle(numbers)
+  randomNumber.slice(0, 11).forEach((num) => {
     document.getElementById(`hide-egg-${num}`).onclick = toogle
   })
 }
