@@ -92,6 +92,33 @@ button a {
 	text-decoration: none;
 }
 
+.inactive {
+	display: none;
+}
+
+.active {
+  align-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.active h2 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.active img {
+	align-self: center;
+  height: auto;
+  width: 50%;
+}
+
 .header-menu {
 	background-color: #40404c;
 	align-items: center;
@@ -227,34 +254,13 @@ button a {
 	margin-top: 15px;
 }
 
-.inactive {
-	display: none;
-}
-
-.active {
-  align-content: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: flex;
-	flex-direction: column;
-  justify-content: center;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-}
-
-.active h2 {
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.active img {
-	align-self: center;
-  height: auto;
-  width: 15%;
-}
-
 @media (min-width: 900px) {
+	.active img {
+		align-self: center;
+	  height: auto;
+	  width: 20%;
+	}
+
   body {
 	  display: flex;
     flex-direction: row;

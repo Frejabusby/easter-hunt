@@ -3,7 +3,7 @@ const toogle = () => {
   document.documentElement.scrollTop = 0;
   const easterEgg = document.getElementById("easter-egg")
   easterEgg.classList.toggle("active")
-  window.addEventListener('scroll', noscroll);
+  window.addEventListener('scroll', noscroll)
 }
 
 // const toogle1 = () => {
@@ -14,7 +14,7 @@ const toogle = () => {
 const closePopUp = () => {
   const easterEgg = document.getElementById("easter-egg")
   easterEgg.classList.remove("active")
-  window.removeEventListener('scroll', noscroll);
+  window.removeEventListener('scroll', noscroll)
 }
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
