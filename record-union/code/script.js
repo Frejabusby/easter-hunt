@@ -1,3 +1,13 @@
+const test = () => {
+  const audio = document.getElementById("audio")
+  audio.play()
+console.log("TEST")
+}
+
+test()
+
+
+
 // A function that adds and remove the class "active" on the section you click on.
 const toogle = () => {
   document.documentElement.scrollTop = 0;
