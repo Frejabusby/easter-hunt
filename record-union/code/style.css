@@ -113,9 +113,29 @@ button a {
 	flex-direction: column;
 	height: 100%;
   justify-content: center;
+	padding-top: 30px;
 	position: absolute;
 	width: 100%;
 	z-index: 1;
+}
+
+.active h2, .active h3 {
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.active .easter-egg-img {
+	border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.active a img {
+	height: 100%;
+	margin-bottom: 40px;
+  width: 40%;
 }
 
 .close-pop-up {
@@ -145,25 +165,6 @@ button a {
 
 .close-pop-up:after {
   transform: rotate(-45deg);
-}
-
-.active h2, .active h3 {
-	color: #fff;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.active .easter-egg-img {
-	border: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.active a img {
-	height: auto;
-	margin-bottom: 40px;
-  width: 50%;
 }
 
 .header-menu {
@@ -305,7 +306,6 @@ button a {
 @media (min-width: 900px) {
 	.active a img {
 		align-self: center;
-	  height: auto;
 	  width: 20%;
 	}
 
