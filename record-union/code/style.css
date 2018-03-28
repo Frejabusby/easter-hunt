@@ -96,6 +96,15 @@ button a {
 	display: none;
 }
 
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .active {
   align-content: center;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -106,6 +115,7 @@ button a {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+	animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
 .close-pop-up {
@@ -137,18 +147,21 @@ button a {
   transform: rotate(-45deg);
 }
 
-.active h2 {
+.active h2, .active h3 {
+	color: #fff;
 	margin-bottom: 40px;
 	text-align: center;
 }
 
 .active .easter-egg-img {
+	border: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .active a img {
+	margin-bottom: 40px;
   height: auto;
   width: 50%;
 }
@@ -208,16 +221,17 @@ button a {
 
 .band-members {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-wrap: wrap;
+  justify-content: flex-start;
 	margin: 10px 0px 20px 0px;
 }
 
 .band-members img {
 	border-radius: 150px;
-	height: 100%;
+	height: 110px;
+	object-fit: cover;
 	margin: 15px 10px 10px 10px;
-	width: calc(25% - 20px);
+	width: 110px;
 }
 
 .artist-info-ingress {
@@ -324,12 +338,9 @@ button a {
 		width: 25%;
 	}
 
-	.band-members {
-		justify-content: flex-start;
-	}
-
 	.band-members img {
-		width: calc(15% - 20px);
+		height: 190px;
+    width: 190px;
 	}
 
 	.top-track-section, .release-section  {
