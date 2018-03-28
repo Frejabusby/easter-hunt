@@ -251,7 +251,7 @@ button a {
 .active img {
 	align-self: center;
   height: auto;
-  width: 30%;
+  width: 15%;
 }
 
 @media (min-width: 900px) {
