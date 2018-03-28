@@ -98,7 +98,7 @@ button a {
 
 .active {
   align-content: center;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.6);
 	display: flex;
 	flex-direction: column;
   justify-content: center;
@@ -108,13 +108,47 @@ button a {
 	z-index: 1;
 }
 
+.close-pop-up {
+ position: absolute;
+ left: 32px;
+ top: 32px;
+ width: 32px;
+ height: 32px;
+ opacity: 0.8;
+}
+
+.close-pop-up:hover {
+	opacity: 1;
+}
+
+.close-pop-up:before, .close-pop-up:after {
+  position: absolute;
+  content: ' ';
+  height: 32px;
+  width: 2px;
+  background-color: #30feb9;
+}
+
+.close-pop-up:before {
+  transform: rotate(45deg);
+}
+
+.close-pop-up:after {
+  transform: rotate(-45deg);
+}
+
 .active h2 {
 	margin-bottom: 40px;
 	text-align: center;
 }
 
-.active img {
-	align-self: center;
+.active .easter-egg-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.active a img {
   height: auto;
   width: 50%;
 }
@@ -255,7 +289,7 @@ button a {
 }
 
 @media (min-width: 900px) {
-	.active img {
+	.active a img {
 		align-self: center;
 	  height: auto;
 	  width: 20%;
