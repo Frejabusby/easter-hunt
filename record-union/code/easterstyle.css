@@ -44,9 +44,9 @@ header {
 }
 
 .ru-logo  {
-  object-fit: cover;
+  object-fit: contain;
   width: 70%;
-  height: 100%;
+  height: auto;
 }
 
 .gift-container {

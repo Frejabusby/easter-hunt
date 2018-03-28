@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./easterstyle.css">
-    <meta name=“viewport” content=“width"=device-width, initial-scale=1" />
-    <title>Easter gift template</title>
-  </head>
-  <body>
-    <header>
-      <img class="ru-logo" src="../icon-assets/01-ru-logo-prim-rgb@3x.png" alt="ru logo">
 
-    </header>
-    <section class="gift-container">
-    <h1>CONGRATULATIONS!</h1>
-    <h2>You found the egg.............</h2>
-      <img src="./media/raw.gif" alt="Easter bunny">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./easterstyle.css">
+  <meta name=“viewport” content=“width "=device-width, initial-scale=1" />
+  <title>Easter gift!</title>
+</head>
 
+<body>
+  <header>
+    <img class="ru-logo" src="../icon-assets/01-ru-logo-prim-rgb@3x.png" alt="ru logo">
+  </header>
+  <section class="gift-container">
+    <h1>CONGRATULATIONS</h1>
+    <h2>You found the egg!</h2>
+    <img id="hef" src="./media/just-hef.png" value="PLAY" onmouseover="play()">
+    <audio id="audio" src="./media/Dogs-barking-aggressive.mp3"></audio>
+
+    <h3>I dare you to come near me!</h3>
     <script>
-      function play(){
-         var audio = document.getElementById("audio");
-         audio.play();
-                   }
-   </script>
-
-    <img id="hef" src="./media/just-hef.png" value="PLAY"  onmouseover="play()">
-    <audio id="audio" src="./media/Dogs-barking-aggressive.mp3" ></audio>
-
-    <h3>Dare to touch me?</h3>
-
-
-
-
-
-  </body>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+</body>
 
 </html>
